@@ -6,7 +6,6 @@ public class Main {
         System.out.println(areEqualByThreeDecimalPlaces(3.123,3.124));
         System.out.println(areEqualByThreeDecimalPlaces(3.123,-3.123));
     }
-
         public static boolean areEqualByThreeDecimalPlaces (double a, double b) {
         // Ao multiplicar os números por 1000 (jogando 3 casas decimais para a direita) e converter os resultados para long através de casting (assim, aproximando eles para o número integral mais próximo), podemos comparar os resultados que, caso equivalentes, mostrarão se os dois números são iguais por 3 casas decimais.
             long aRounded = (long) (a * 1000);

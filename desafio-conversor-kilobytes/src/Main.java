@@ -6,6 +6,7 @@ public class Main {
         printMegaBytesAndKiloBytes(400);
         printMegaBytesAndKiloBytes(-10000);
     }
+
     public static void printMegaBytesAndKiloBytes(int kiloBytes) {
         if (kiloBytes < 0) {
             System.out.println("Invalid Value");
